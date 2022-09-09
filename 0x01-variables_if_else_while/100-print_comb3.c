@@ -16,10 +16,11 @@ if (chr < j)
 {
 putchar(chr);
 putchar(j);
-if (chr == 8)
-continue;
+if (chr != 56)
+{
 putchar(44);
 putchar(' ');
+}
 }
 }
 }
