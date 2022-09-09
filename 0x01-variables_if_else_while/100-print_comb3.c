@@ -7,9 +7,10 @@
 int main(void)
 {
 int chr;
+int j;
 for (chr = 48 ; chr <= 57 ; chr++)
 {
-for (int j = 48 ; j <= 57 ; j++)
+for (j = 48 ; j <= 57 ; j++)
 {
 if (chr < j)
 {
