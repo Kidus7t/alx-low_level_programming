@@ -9,9 +9,9 @@ int main(void)
 int chr;
 for (chr = 48 ; chr <= 57 ; chr++)
 {
-for (int j = chr + 1 ; j <= 57 ; j++)
+for (int j = 48 ; j <= 57 ; j++)
 {
-if (chr <= j)
+if (chr < j)
 {
 putchar(chr);
 putchar(j);
