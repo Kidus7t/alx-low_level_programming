@@ -1,5 +1,12 @@
 #include <stdio.h>
-int main(void){
+/**
+ * main- printing the size of data types
+ * Description - using the main function
+ * it should print size of common data types
+ * Return: 0
+ */
+int main(void)
+{
 char c;
 int i;
 long l;
@@ -10,5 +17,5 @@ printf("Size of an int: %ld byte(s)\n", sizeof(i));
 printf("Size of an long int: %ld byte(s)\n", sizeof(l));
 printf("Size of an long long int: %ld byte(s)\n", sizeof(ll));
 printf("Size of an float: %ld byte(s)\n", sizeof(f));
-return 0;
+return (0);
 }
