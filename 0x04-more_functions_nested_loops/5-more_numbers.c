@@ -8,10 +8,10 @@
 
 void more_numbers(void)
 {
-int s;
+char s;
 int c;
 
-for (s = 1; n <= 10; n++)
+for (s = 48; s <= 57; s++)
 {
 for (c = 0; c <= 14; c++)
 {
