@@ -23,8 +23,12 @@ for (i2 = 0; i2 < i1; i2++)
 putchar('#');
 }
 if (i1 == size)
+{
 continue;
+}
 putchar('\n');
 }
 }
+else
+putchar('\n');
 }
