@@ -5,13 +5,13 @@
  * Return: 0
  */
 
-int main(void)
+void main(void)
 {
 int num;
 
 for (num = 1; num <= 100; num++)
 {
-if (num % 3 && num % 5)
+if ((num % 3) && (num % 5))
 {
 printf("FizzBuzz ");
 }
@@ -31,5 +31,4 @@ printf("Buzz");
 else
 printf("%d ", num);
 }
-return (0);
 }
