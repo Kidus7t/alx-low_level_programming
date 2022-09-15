@@ -13,7 +13,7 @@ int square;
 int c;
 if (size > 0)
 {
-for (square = 0; square < (size-1); square++)
+for (square = 0; square < size; square++)
 {
 for (c = 0; c < (size - 1);c++)
 {
@@ -24,5 +24,7 @@ putchar('\n');
 }
 }
 else
+{
 putchar('\n');
+}
 }
