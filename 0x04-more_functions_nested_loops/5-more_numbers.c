@@ -15,18 +15,12 @@ for (s = 0; s <= 9; s++)
 {
 for (c = 0; c < 15; c++)
 {
-if (c == 10)
+if (c > 9)
 {
-_putchar(c / 10 + '0');
+putchar((c / 10) + '0');
 }
-else if (c > 10)
-{
-_putchar(1);
-_putchar(c % 10);
+putchar((c % 10) + '0');
 }
-else
-_putchar(c);
-}
-_putchar('\n');
+putchar(10);
 }
 }
