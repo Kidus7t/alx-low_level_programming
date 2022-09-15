@@ -8,16 +8,15 @@
 
 void more_numbers(void)
 {
-char s;
+int s;
 int c;
 
-for (s = 48; s <= 57; s++)
+for (s = 0; s <= 9; s++)
 {
-for (c = 0; c <= 14; c++)
+for (c = 0; c < 15; c++)
 {
 _putchar(c);
 }
 _putchar('\n');
 }
-_putchar('\n');
 }
