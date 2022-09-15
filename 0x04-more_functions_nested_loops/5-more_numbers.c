@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,10 +8,10 @@
 
 void more_numbers(void)
 {
-char n;
+int s;
 int c;
 
-for (n = 48; n <= 57; n++)
+for (s = 1; n <= 10; n++)
 {
 for (c = 0; c <= 14; c++)
 {
