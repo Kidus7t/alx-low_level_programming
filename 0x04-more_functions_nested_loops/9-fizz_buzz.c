@@ -31,6 +31,6 @@ else
 printf("%d ", num);
 }
 }
-printf('\n');
+putchar('\n');
 return (0);
 }
