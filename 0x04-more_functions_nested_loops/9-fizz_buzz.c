@@ -7,24 +7,27 @@
 int main(void)
 {
 int num;
+char f[] = "Fizz";
+char b[] = "Buzz";
+char fb[] = "FizzBuzz";
 
 for (num = 1; num <= 100; num++)
 {
 if (num == 100)
 {
-printf("Buzz");
+printf("%s", b);
 }
 else if ((num % 3) && (num % 5))
 {
-printf("FizzBuzz ");
+printf("%s ", fb);
 }
 else if (num % 3)
 {
-printf("Fizz ");
+printf("%s ", f);
 }
 else if (num % 5)
 {
-printf("Buzz ");
+printf("%s ", b);
 }
 else
 {
