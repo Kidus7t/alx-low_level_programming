@@ -18,5 +18,5 @@ else
 	z = y / 2;
 for (i = z; i < y; i++)
 	_putchar(str[i]);
-_putchar(10);
+_putchar('\n');
 }
