@@ -17,6 +17,6 @@ if (y % 2 == 1)
 else
 	z = y / 2;
 for (i = z; i < y; i++)
-	putchar(str[i]);
-putchar(10);
+	_putchar(str[i]);
+_putchar(10);
 }
