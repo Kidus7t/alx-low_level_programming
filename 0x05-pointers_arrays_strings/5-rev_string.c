@@ -14,7 +14,7 @@ int len = strlen(s) - 1;
 char *rev;
 for (; len >= 0; len--)
 {
-rev += s[len];
+rev =rev + s[len];
 }
-s = rev;
+*s = *rev;
 }
