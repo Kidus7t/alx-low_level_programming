@@ -4,6 +4,7 @@
  * _strchr- locating a char
  * @s: pm
  * @c: pm
+ * Return: 0
  */
 
 char *_strchr(char *s, char c)

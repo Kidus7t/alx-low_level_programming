@@ -9,8 +9,8 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-unsigned i = 0;
-unsigned j = 0;
+unsigned int i = 0;
+unsigned int j = 0;
 
 while (haystack[i])
 {
@@ -26,7 +26,7 @@ if (needle[j])
 i++;
 j = 0;
 }
-else 
+else
 return (haystack + i);
 }
 return (0);
