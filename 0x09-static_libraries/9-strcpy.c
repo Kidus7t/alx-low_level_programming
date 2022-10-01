@@ -1,21 +1,18 @@
 #include "main.h"
-
 /**
- * _strcpy- la la
- * @dest: l
- * @src:blah
- * Return: destination
- */
-
+* _strcpy - Copy paste string
+*@dest: destination
+*@src: source
+*Return: dest
+*/
 char *_strcpy(char *dest, char *src)
 {
-int n = 0;
-while (*(src + n) != '\0')
+int inc = 0;
+while (*(src + inc) != '\0')
 {
-*(dest + n) = *(src + n);
-	n++;
+*(dest + inc) = *(src + inc);
+inc++;
 }
-*(dest + n) = '\0';
-
+*(dest + inc) = '\0';
 return (dest);
 }
