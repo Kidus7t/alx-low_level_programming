@@ -14,14 +14,14 @@ int i, j;
 
 i = 0;
 if (width == 0 || height == 0)
-	return (Null);
+	return (NULL);
 array = (int **) malloc(sizeof(int *) * height);
-if (array != Null)
+if (array != NULL)
 {
 for (; i < height; i++)
 {
 array[i] = (int *) malloc(sizeof(int) * width);
-if (array[i] != Null)
+if (array[i] != NULL)
 {
 for (j = 0; j < width; j++)
 	array[i][j] = 0;
@@ -34,11 +34,11 @@ free(array[i]);
 i--;
 }
 free(array);
-return (Null);
+return (NULL);
 }
 }
 return (array);
 }
 else
-return (Null);
+return (NULL);
 }

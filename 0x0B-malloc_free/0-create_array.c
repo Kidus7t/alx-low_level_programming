@@ -13,10 +13,10 @@ char *array;
 unsigned int i;
 
 if (size == 0)
-	return (Null);
+	return (NULL);
 array = malloc(sizeof(char) * size);
-if (array == Null)
-	return (Null);
+if (array == NULL)
+	return (NULL);
 for (i = 0; i < size; i++)
 	array[i] = c;
 return (array);
