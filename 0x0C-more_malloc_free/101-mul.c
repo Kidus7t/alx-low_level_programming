@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  *main- multiplying two positive numbers
  *@argv: pm
