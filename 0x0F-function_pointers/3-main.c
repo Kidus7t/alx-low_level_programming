@@ -34,7 +34,7 @@ o = *argv[2];
 if ((o == '/' || o == '%') && arg2 == 0)
 {
 printf("Error\n");
-exit (100);
+exit(100);
 }
 result = func(arg1, arg2);
 

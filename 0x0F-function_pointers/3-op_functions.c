@@ -42,7 +42,7 @@ int op_div(int a, int b)
 	return (a / b);
 
 /**
- * op_mod_ modulus a and b
+ * op_mod- modulus a and b
  * @a: pm
  * @b: pm
  * Return: modulus
